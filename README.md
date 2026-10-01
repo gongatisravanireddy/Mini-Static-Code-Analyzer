@@ -56,7 +56,6 @@ Mini-Static-Code-Analyzer/
 
 ## How It Works
 
-
 Python Source Code
         ↓
 Code Parsing
@@ -70,6 +69,7 @@ Report Generation
 Analysis Results
 
 ## Technologies Used
+
 - Python
 - Python AST
 - Static Code Analysis
@@ -78,8 +78,11 @@ Analysis Results
 - CLI
 
 
-## How to RunInstall Dependencies
+## How to Run
 
+### Install Dependencies
+
+```bash
 pip install -r requirements.txt
 
 Run CLI
