@@ -54,7 +54,9 @@ Mini-Static-Code-Analyzer/
 └── README.md
 
 
-How It Works
+## How It Works
+
+```text
 Python Source Code
         ↓
 Code Parsing
@@ -67,7 +69,9 @@ Report Generation
         ↓
 Analysis Results
 
-Technologies Used
+##Technologies Used
+
+'''text
 - Python
 - Python AST
 - Static Code Analysis
