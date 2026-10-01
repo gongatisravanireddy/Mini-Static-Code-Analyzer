@@ -54,65 +54,54 @@ Mini-Static-Code-Analyzer/
 └── README.md
 
 
-## How It Works
-
-Python Source Code
-        ↓
-Code Parsing
-        ↓
-Static Analysis
-        ↓
-Issue Detection
-        ↓
-Report Generation
-        ↓
-Analysis Results
-
-## Technologies Used
-
-- Python
-- Python AST
-- Static Code Analysis
-- HTML
-- Tkinter / GUI
-- CLI
-
-
 ## How to Run
 
 ### Install Dependencies
 
-```bash
+Run:
+
 pip install -r requirements.txt
 
-Run CLI
+### Run CLI
+
+Run:
+
 python cli.py
 
-Run GUI
+### Run GUI
+
+Run:
+
 python gui.py
 
 ## Sample Tests
+
 The project includes sample Python files for testing:
-- test1.py
-- test2_clean.py
-- test3_syntax_error.py
-These files are used to demonstrate different code analysis cases.
+
+- `test1.py`
+- `test2_clean.py`
+- `test3_syntax_error.py`
+
+These files demonstrate different code analysis cases.
 
 ## Report Generation
-The analyzer can generate an HTML report containing the detected code issues.
-Example:
-reports/
-└── test1_report.html
 
+The analyzer can generate an HTML report containing the detected code issues.
+
+Example report:
+
+`reports/test1_report.html`
 
 ## Future Scope
+
 - Add more static analysis rules.
 - Support additional programming languages.
 - Add code complexity analysis.
 - Improve the graphical interface.
 - Add automated code quality suggestions.
 
-
 ## Conclusion
+
 Mini Static Code Analyzer provides a simple way to analyze Python source code without executing it.
-The project demonstrates the practical use of Python, static code analysis, AST-based parsing, CLI development, GUI development, and report generation.
+
+The project demonstrates the practical use of **Python, static code analysis, AST-based parsing, CLI development, GUI development, and report generation**.
