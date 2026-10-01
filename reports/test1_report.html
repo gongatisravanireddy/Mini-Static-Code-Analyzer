@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>Static Code Analysis Report</title>
+
+<style>
+
+body {
+    font-family: Arial;
+    margin: 40px;
+}
+
+h1 {
+    color: #333;
+}
+
+.card {
+    display: inline-block;
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid #ccc;
+}
+
+.warning {
+    color: orange;
+}
+
+.info {
+    color: blue;
+}
+
+.error {
+    color: red;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>Mini Static Code Analyzer Report</h1>
+
+<p>
+<b>File:</b> C:/Users/gonga/Downloads/7th SEM/CD/mini_static_code_analyzer/sample_tests/test1.py
+</p>
+
+<h2>Summary</h2>
+
+<div class="card">
+Unused Variables:
+3
+</div>
+
+<div class="card">
+Dead Code:
+1
+</div>
+
+<div class="card">
+Duplicate Declarations:
+2
+</div>
+
+<div class="card">
+Total:
+6
+</div>
+
+<h2>Issues</h2>
+
+<ul>
+<li class="info">
+<b>Line 2</b>
+(Info)
+Duplicate Declaration: Module 'os' was already imported at line 1.
+</li>
+
+<li class="warning">
+<b>Line 4</b>
+(Warning)
+Unused Variable: Variable 'x' is assigned but never used (in module scope).
+</li>
+
+<li class="warning">
+<b>Line 5</b>
+(Warning)
+Unused Variable: Variable 'y' is assigned but never used (in module scope).
+</li>
+
+<li class="warning">
+<b>Line 13</b>
+(Warning)
+Dead Code: Unreachable code detected — this statement can never execute because line 11 always exits the block.
+</li>
+
+<li class="info">
+<b>Line 16</b>
+(Info)
+Duplicate Declaration: Function 'calculate' is declared again here; previous declaration was at line 7.
+</li>
+
+<li class="warning">
+<b>Line 21</b>
+(Warning)
+Unused Variable: Variable 'z' is assigned but never used (in module scope).
+</li>
+</ul>
+</body>
+</html>
