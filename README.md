@@ -56,7 +56,7 @@ Mini-Static-Code-Analyzer/
 
 ## How It Works
 
-```text
+
 Python Source Code
         ↓
 Code Parsing
@@ -71,7 +71,7 @@ Analysis Results
 
 ##Technologies Used
 
-'''text
+
 - Python
 - Python AST
 - Static Code Analysis
